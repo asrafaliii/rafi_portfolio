@@ -8,16 +8,7 @@ import {
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
-import code from "../public/code.png";
-import design from "../public/design.png";
-import consulting from "../public/consulting.png";
 import Image from "next/image";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -65,12 +56,14 @@ export default function Home() {
               <a
                 href="https://www.facebook.com/MarvellousMahmud"
                 target="_blank"
+                rel="noreferrer"
               >
                 <AiFillFacebook />
               </a>
               <a
                 href="https://www.linkedin.com/in/rafi-md-mahmudul-hasan-423108236/?fbclid=IwAR13mvt9o4xblLNcZclYwmkd4qMCzN-cq-3mXPc0XR5PAO2OoKOQSpCfuhM"
                 target="_blank"
+                rel="noreferrer"
               >
                 <AiFillLinkedin />
               </a>
